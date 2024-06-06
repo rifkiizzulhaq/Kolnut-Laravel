@@ -11,11 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('rekomendasi_makanans', function (Blueprint $table) {
+        Schema::create('ai_rekomendasis', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
+            $table->string('Judul');
+            $table->string('Deskripsi');
+            $table->string('Kategori');
             $table->string('harga');
-            $table->string('deskripsi');
+            $table->string('gambar');
             $table->timestamps();
         });
     }
@@ -25,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('rekomendasi_makanans');
+        Schema::dropIfExists('ai_rekomendasis');
     }
 };

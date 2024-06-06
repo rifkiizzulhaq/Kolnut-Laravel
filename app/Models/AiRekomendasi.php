@@ -5,13 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Rekomendasi_makanan extends Model
+class AiRekomendasi extends Model
 {
     use HasFactory;
-    protected $table = 'rekomendasi_makanans';
+    protected $table = 'ai_rekomendasis';
     protected $fillable = [
         'judul',
+        'deskripsi',
+        'kategori',
         'harga',
-        'deskripsi'
+        'gambar'
     ];
 }
