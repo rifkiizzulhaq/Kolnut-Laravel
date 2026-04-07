@@ -1,15 +1,15 @@
-# 🥗 Kolnut — Backend API & Admin Dashboard
+# Kolnut — Backend API & Admin Dashboard
 
 **Kolnut** adalah aplikasi berbasis web dan mobile untuk membantu pengguna dalam mengidentifikasi **jenis makanan** serta mendapatkan **rekomendasi gizi dan tips makanan sehat** menggunakan teknologi kecerdasan buatan (AI).
 
 Repositori ini adalah bagian **Backend** dari ekosistem Kolnut, dibangun menggunakan **Laravel 10**, yang berfungsi sebagai:
-- 🔌 **REST API** — melayani aplikasi mobile (React Native)
-- 🖥️ **Admin Dashboard** — untuk mengelola konten tips makanan
-- 🔗 **Jembatan ke AI** — meneruskan gambar yang di-scan ke server AI (Python FastAPI) dan mengembalikan hasilnya ke aplikasi mobile
+- **REST API** — melayani aplikasi mobile (React Native)
+- **Admin Dashboard** — untuk mengelola konten tips makanan
+- **Jembatan ke AI** — meneruskan gambar yang di-scan ke server AI (Python FastAPI) dan mengembalikan hasilnya ke aplikasi mobile
 
 ---
 
-## 🏗️ Arsitektur Proyek
+## Arsitektur Proyek
 
 Proyek Kolnut terdiri dari 3 bagian yang saling terhubung:
 
@@ -27,7 +27,7 @@ Proyek Kolnut terdiri dari 3 bagian yang saling terhubung:
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Keterangan |
 |---|---|
